@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 300px;
+  width: 600px;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'roboto';
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dropdown-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.select {
+  margin-left: 30px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.option {
+  font-size: 15px;
+}
+
+.country {
+  margin-left: 30px;
+  font-weight: bold;
+  font-family: 'roboto';
+  font-size: 25px;
+}
